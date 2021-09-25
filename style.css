@@ -137,7 +137,7 @@ a{
         border-radius: 5px;
         box-shadow: 1px 1px 5px rgb(99 40 40);
         position: absolute;
-        left: 254px;
+        left: 242px;
         top: 135px;
         /* text-align: center; */
     }
@@ -227,8 +227,8 @@ a{
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgb(99 40 40);
     position: fixed;
-    top: 250px;
-    left: 520px;
+    top: 310px;
+    left: 530px;
     background: white;
 
 }
