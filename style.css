@@ -1,7 +1,7 @@
 .todo-box {
     position: relative;
     width: 700px;
-    height: 450px;
+    height: 530px;
     /* border: 1px solid rgb(223, 207, 207); */
 
     left: 270px;
@@ -10,6 +10,7 @@
     padding: 20px;
     
 }
+
 .main-head{
     font-size: 25px;
     font-weight: 900;
@@ -65,7 +66,8 @@ a{
    left: 292px;
    top: 85px;
     
-}.card3{
+}
+.card3{
     width: 130px;
     height: 200px;
     border: 1px solid salmon;
@@ -76,6 +78,40 @@ a{
    top: 85px;
     
 }
+.card4{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 96px;
+   top: 310px;
+    
+}
+.card5{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 292px;
+   top: 310px;
+    
+}
+.card6{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 490px;
+   top: 310px;
+    
+}
+
 .card-content1{
     color: red;
     text-decoration: line-through;
@@ -176,7 +212,7 @@ a{
 }
 
 .todo-box-filter {
-    filter: blur(5px);
+    filter: blur(10px);
 }
 .add-list-box-border{
         border-top: 1px solid rgb(223, 207, 207);
@@ -230,5 +266,378 @@ a{
     top: 310px;
     left: 530px;
     background: white;
+}
+
+
+
+
+
+
+@media screen and (max-width:360px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .todo-box {
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        position: relative;
+        width: 318px;
+        height: 450px;
+        /* border: 1px solid rgb(223, 207, 207); */
+    
+       
+        box-shadow: 1px 1px 1px  rgb(223, 207, 207);
+       
+     
+        
+    }
+    .main-head{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .main-head1{
+        font-size: 22px;
+    }
+    .main-head-left{
+        
+        position: absolute;
+        left: 22px;
+        top: 20px;
+        
+    }
+    .main-head-font{
+        color: rgb(128, 122, 122);
+    
+    
+    }
+    
+    .main-add-font{
+        display: none;    
+    
+    }
+    .main-head-right{
+        position: absolute;
+        right: 22px;
+        top: 20px;
+        
+    }
+    .icon{
+        color: #ff6a6a;
+        font-size: 25px;
+        margin-right: 6px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(95, 93, 93);
+    }
+    
+.card1{
+    width: 300px;
+    height:50px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 25px;
+   top: 85px;
+    
+}
+.card2{
+    width: 300px;
+    height: 50px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 25px;
+   top: 150px;
+    
+}
+.card3{
+    width: 300px;
+    height: 50px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 25px;
+   top: 215px;
+    
+}
+.card4{
+    width: 300px;
+    height: 50px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 25px;
+   top: 280px;
+    
+}
+.card5{
+    width: 300px;
+    height: 50px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 25px;
+   top: 345px;
+    
+}
+.card6{
+    width: 300px;
+    height: 50px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 25px;
+   top: 410px;
+    
+}
+.card-content1{
+    color: red;
+    text-decoration: line-through;
+    position: absolute;
+    left: 22px;
+    top: 62px;
+    display: none;
+}
+.card-content2 {
+    position: absolute;
+    left: 0px;
+    top: 92px;
+    display: none;
+}
+
+.trip-head-border{
+    border: none;
+}
+
+.add-list-box-border{
+    border-top: 1px solid rgb(223, 207, 207);
+    border-right: 1px solid rgb(223, 207, 207);
+    border-bottom: 1px solid rgb(223, 207, 207);
+    position: relative;
+    width: 318px;
+    height: 450px;
+    box-shadow: 1px -1px 1px  rgb(223, 207, 207);
 
 }
+
+.add-list {
+    text-align: center;
+    color: #ff6a6a;
+    padding: 10px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: fixed;
+    top: 190px;
+    left: 90px;
+    background: white;
+
+}
+
+.add-item {
+    width: 235px;
+  text-align: center;
+  color: #ff6a6a;
+  padding: 10px;
+  border: 1px solid salmon;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(99 40 40);
+  position: fixed;
+  top: 190px;
+  left: 52px;
+  background: white;
+}
+
+
+
+.paris-head {
+    position: absolute;
+    left: 108px;
+    top: 50px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: white;
+}
+.paris-head-line {
+    width: 211px;
+    height: 0px;
+    position: absolute;
+    left: 70px;
+    top: 64px;
+    border-bottom: 1px solid grey;
+}
+.paris-head-border {
+width: 158px;
+height: 30px;
+position: absolute;
+left: 92px;
+top: 20px;
+border-bottom: 2px solid grey;
+}
+.back-icon{
+position: absolute;
+left: 265px;
+top: 94px;
+color: #ff6a6a;
+font-size: 18px;
+margin-right: 6px;
+
+}
+
+.back-btn {
+    display: none;
+}
+
+
+.paris-card {
+    width: 250px;
+    height: 203px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 51px;
+    top: 135px;
+    /* text-align: center; */
+}
+
+}
+
+
+
+
+@media screen and (min-width:361px) and (max-width:770px){
+
+    .todo-box {
+        position: relative;
+        width: 713px;
+        height: 530px;
+        /* border: 1px solid rgb(223, 207, 207); */
+    
+        left: 0px;
+        box-shadow: 1px 1px 1px  rgb(223, 207, 207);
+        top: 0px;
+        padding: 20px;
+        
+    }
+    .add-list-box-border{
+            border-top: 1px solid rgb(223, 207, 207);
+            border-right: 1px solid rgb(223, 207, 207);
+            border-bottom: 1px solid rgb(223, 207, 207);
+            position: relative;
+            width: 700px;
+            height: 450px;
+            left: 10px;
+            box-shadow: 1px -1px 1px  rgb(223, 207, 207);
+            top: 130px;
+            padding: 20px;
+    
+    
+    }
+    
+    .add-list {
+        text-align: center;
+        color: #ff6a6a;
+        padding: 10px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: fixed;
+        top: 220px;
+        left: 278px;
+        background: white;
+    
+    } .add-item {
+          width: 235px;
+        text-align: center;
+        color: #ff6a6a;
+        padding: 10px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: fixed;
+        top: 310px;
+        left: 250px;
+        background: white;
+    }
+
+.card1{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 90px;
+   top: 85px;
+    
+}
+.card2{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 297px;
+   top: 85px;
+    
+}
+.card3{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 500px;
+   top: 85px;
+    
+}
+.card4{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 90px;
+   top: 310px;
+    
+}
+.card5{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 297px;
+   top: 310px;
+    
+}
+.card6{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left:500px;
+   top: 310px;
+    
+}  
+
+}
+   
